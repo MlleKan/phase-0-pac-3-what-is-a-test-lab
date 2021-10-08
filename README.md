@@ -199,7 +199,7 @@ ReferenceError: name is not defined
 ```
 
 That one says that the `name` variable is not defined. That makes no sense! We
-initialized the `name` variable in `index.js`! What that actually means is that
+initializedthe `name` variable in `index.js`! What that actually means is that
 the test couldn't find the variable `name`. You'll get this error if the name of
 one of your variables is different than the test is expecting. Check to make
 sure you used the correct variable names and look carefully for typos.
